@@ -1,0 +1,50 @@
+body{
+    background-color: cyan;
+}
+
+
+.result{
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 42%;
+    margin-top: 100px;
+}
+
+.grid-container{
+    display: grid;
+    height: 300px;
+    width: 70%;
+    grid-template-columns: auto auto;
+    padding: 20px;    
+ 
+    grid-gap: 20px; 
+    position: relative;
+    left: 15%;
+    top: 230px;
+}
+.grid-item{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+}
+.grid-item h2{
+    position: relative;
+    bottom: 45%;
+    left: 20%;
+}
+.grid-item p{
+    position: relative;
+    right: 10%;
+    height: 200px;
+    width: 200px;
+   
+}
+.grid-item p img{
+    height: 100%;
+    width: 100%;
+   
+}
